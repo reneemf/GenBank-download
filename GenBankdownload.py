@@ -5,7 +5,7 @@ outfile="1st_10_mouse_genbank_records.gb"
 
 from Bio import Entrez
 
-Entrez.email = "reneefonseca@mail.usf.edu"
+Entrez.email = "xxx@mail.edu"
 
 handle = Entrez.esearch(db = "nucleotide",term = "Mus musculus", retmax = 10, idtype = "acc", usehistory = "y")
 
